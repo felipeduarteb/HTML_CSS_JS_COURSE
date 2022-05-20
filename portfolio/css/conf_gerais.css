@@ -1,0 +1,98 @@
+/* TODAS DEFINIÇÕES GERAIS DO SITE/PROJETO (TUDO QUE É COMUM) */
+
+body {
+    background: #3B3D5D;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif; 
+    
+    
+}
+
+header {
+    background: #000000;
+    height: 110px;
+
+}
+
+.conteiner {
+    /* border: solid 1px yellow; */
+    /* height: 110px; */
+    /* Normalmente as telas são de 1280px - desonctar 110px para barra de rolagem ou outras coisas */
+    width: 1170px;
+    /* 0 para top e bottom e auto para as laterais. Vai sentido relógio */
+    /* podemos configurar as margens manualmente uma a uma */
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /* OU podemos configurar passando os 4 valores em sequencia que serao processados no sentido horario */
+    /* top - right - bottom - left */
+    /* margin: 0 auto 0 auto; */
+
+    /*  OU podemos passar um unico valor que sera aplicado nos 4 lados do elemento */
+    /* nesse caso aplica 20px nos 4 cantos */
+    /* margin: 20px; */
+    /* OU quando temos os valores do TOP e BOTTOM iguais e das LATERAIS combinando */
+    /* podemos passar apenas um PAR */
+    margin: 0 auto;
+    padding-top: 36px;
+    padding-bottom: 26px;
+
+    background: #000000;
+
+}
+
+.logo {
+    display: inline-block;
+}
+/* ============ MENU =============== */
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: white;
+    background: #FF4A57;
+    padding: 12px 20px;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* pseudo propriedade do elemento: sempre é simbolizada por ":" */
+/* para aquando passar o mouse por cima */
+.menu a:hover {
+    color: #FF4A57;
+    background: white;
+    padding: 12px 20px;
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+section {
+    /* border: inset orange 1px; */
+    width: 1170px;
+    height: 450px;
+    margin: 70px auto 0 auto;
+    
+
+}
+
+aside {
+    /* border: solid 1px white; */
+    height: 400px;
+}
+
+aside:first-child {
+    width: 600px;
+    float: left;
+}
+
+aside:last-child {
+    width: 400px;
+    float: right;
+}
+

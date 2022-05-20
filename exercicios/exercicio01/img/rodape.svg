@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1530.9999 158.49274" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="b" x="0" y="0" width="1" height="1">
+   <feColorMatrix in="SourceGraphic" result="result14" type="luminanceToAlpha"/>
+   <feComposite in="SourceGraphic" in2="result14" operator="out" result="fbSourceGraphic"/>
+   <feBlend in2="fbSourceGraphic" result="result15"/>
+  </filter>
+  <linearGradient id="a" x1="63.929" x2="909.25" y1="778.84" y2="734.5" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#46fdff" offset="0"/>
+   <stop stop-color="#004b80" stop-opacity=".91765" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path transform="matrix(1.7869 0 0 .61155 -114.58 -424.08)" d="m65.829 721.75s174.13 136.16 300.74 112.23c129.46-12.505 241.31-128.84 363.44-139.28 63.824-5.4564 191.06 40.215 191.06 40.215l0.59368 89.154-1.0053 126.48-856.25 1.2713 1.4287-230.07z" fill="url(#a)" filter="url(#b)" stroke="url(#a)" stroke-width=".94338"/>
+ <path transform="translate(-11.071 -485.53)" d="m776.57 564.78" fill="none" stroke="#000"/>
+ <path transform="matrix(1.787 0 0 .47329 -114.66 -292.44)" d="m65.829 721.75s172.94 115.16 299.55 91.229c129.46-12.505 242.65-112.27 364.63-118.28 64.061-3.1559 191.86 43.233 191.86 43.233l0.59368 80.782-1.8045 131.84-856.25 1.2713 1.4287-230.07z" fill="#00d8b1" filter="url(#b)"/>
+</svg>

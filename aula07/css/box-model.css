@@ -1,0 +1,27 @@
+h1 {
+    padding;
+    text-align: center;
+}
+
+.meio_pagina {
+    border: 10px solid red;
+    width: 170px;
+    height: 200px;
+    margin: 10px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    /* Habilita barra de navegação */
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* block: elemento ocupa uma linha inteira (mas aceita altura e largura) */
+    /* inline: elemento ocupa apenas o tamanho do seu conteudo (mas nao aceita alt nem larg) */
+    /* inline-block: é uma mescla das duas propriedas. */
+    display: inline-block;
+}
+
+section {
+    border: 4px dashed orange;
+    width: 270px;
+    
+}

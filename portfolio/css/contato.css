@@ -1,0 +1,71 @@
+button,
+input, 
+textarea {
+ border: 1px solid white; 
+ border-radius: 10px;
+ padding: 10px;
+ outline: none;
+ width: 580px;
+ margin: 10px 0 10px 0;
+ background: transparent;
+ font-family: Poppins;
+ font-size: 12px;
+ color: white;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+ width: auto; 
+ float: right;
+}
+
+/* customizacao do placeholder */
+::placeholder {
+  color: #CCCCCC;
+}
+
+iframe {
+  width: 400px;
+  border-radius: 10px;
+  
+}
+
+iframe:hover {
+  zoom: 120%;
+  box-shadow: 5px 10px rgb(27, 26, 26);
+}
+
+/* ================ EXTRA ================ */
+/* ao clicar dentro do elemento ele ficará em "FOCO" e trocaremos a cor de fundo de por branco e o texto por azul */
+input:focus,
+textarea:focus {
+  background: white;
+  color: #1F2235;
+}
+/* e aplicaremos uma cor diferente no placegolder para evitar problemas de usabilidade */
+:focus::placeholder {
+  color: #1F2235;
+}
+
+/* efeito de clique no botao */
+button:active {
+  color: #1F2235;
+  background: white;
+  cursor: pointer;
+}
+
+.erro {
+  /* border: solid 2px red; */
+  padding: 1px;
+  font-size: 13px;
+  /* font-style: italic; */
+  /* font-weight: bold; */
+  color: red;
+  float: left;
+  display: none;
+
+}

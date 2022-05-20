@@ -1,0 +1,39 @@
+body {
+
+    border: 2px solid red;
+    padding: 10px;
+}
+
+
+section {
+
+    display: inline-block;
+
+}
+
+.esquerdo  {
+    text-align: center;
+    border: solid 2px red;
+    width: 150px;
+    
+}
+
+.direito  {
+    text-align: center;
+    border: solid 2px red;
+    width: 400px;
+
+}
+
+.esquerdo, .direito {
+    display: inline-block;
+    height: 300px;
+    /* alinhar texto vertical */
+    vertical-align: top;
+
+}
+
+.cabecalho h1 img {
+    vertical-align: middle;
+}
+

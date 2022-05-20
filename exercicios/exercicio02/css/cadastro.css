@@ -1,0 +1,35 @@
+body { 
+    font-family: Arial;
+    background-color: lightgray;
+    background: url(../img/fundo.svg)  no-repeat center fixed;
+    background-size: cover
+}
+
+h1 {
+    color: darkred;
+    height: 40px;
+    width: auto;
+    font-size: xx-large;
+
+}
+/* h2 {
+    color: brown;
+    border-color: brown;
+} */
+
+img {
+    height: 80%;
+    /* width: 40px; */
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: 1;
+    border-color: darkblue;
+    font-style: normal;
+}
+
+p:hover, h1:hover, a:hover {
+    background-color: yellow;
+  }

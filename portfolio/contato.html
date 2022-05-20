@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/conf_gerais.css">
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <img src="/portfolio/img/logotipo.png" alt="logotipo">
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cont">
+        <aside>
+            <form method="post" onsubmit="return verificar()">
+                <input type="text" id="inp" name="name" placeholder="Digite o seu nome">
+                <div class="erro"></div>
+
+                <input type="text" id="inp" name="email" placeholder="Digite o seu endereço de e-mail">
+                <div class="erro"></div>
+
+                <textarea name="mensagem" id="inp" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <div class="erro"></div>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </aside>
+        <aside>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.4748636040777!2d-51.09693588488619!3d-29.994518381900523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951976800864d42d%3A0x298aa975194d2cd6!2sR.%20dos%20Maias%2C%20Porto%20Alegre%20-%20RS%2C%2091170-200!5e0!3m2!1spt-BR!2sbr!4v1645479239517!5m2!1spt-BR!2sbr" width="600" height="340" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </aside>
+    </section>
+
+    <!-- <script src="js/contato.js"></script> -->
+    <script src="js/contato2.js"></script>
+</body>
+</html>

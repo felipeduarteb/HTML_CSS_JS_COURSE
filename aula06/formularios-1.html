@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>Informe seus dados de interesses</p>
+
+        <hr>
+        <!-- sempre que usarmos checkbox devemos usar os colchetes no NAME -->
+        <!-- isso faz com que o back-end que estamos enviando um vetor de dados -->
+        <!-- label: conteiner -->
+        <label >
+        <input type="checkbox" name="interesse[]" value="tecnologia">Técnologia
+        </label>
+
+        <br>
+        <label>
+            <input type="checkbox" name="games[]" value="games">Games
+        </label>
+
+        <br>
+        <label>
+            <input type="checkbox" name="esportes[]" value="esporte">Esportes
+        </label>
+
+        <br>
+        <label> 
+            <textarea name="mensagem" placeholder="Digite seu texto" autofocus cols="30" rows="10" ></textarea>
+        </label>
+
+        <br>
+        <input type="file" name="" id="">
+
+        <br>
+        Senha:
+        <input type="password" name="senha" id="" placeholder="senha">
+
+        <br>
+        <input type="color" name="cor" id="">
+
+        <br>
+        <input type="range" name="aseaseas" id="">
+
+        <br>
+        <input type="search" name="easeas" id="">
+
+        <hr>
+        <button type="submit">Enviar</button>
+        
+        <button>Eu quem defino o que ele vai fazer no JS</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+</html>

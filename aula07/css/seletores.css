@@ -1,0 +1,22 @@
+/* Esse é um comentário */
+
+/* Seletor por TAG */
+body {
+    background: scroll green;
+}
+
+p {
+    font-family: 'Courier New';
+}
+
+/* Seletor por ID */
+/* Serve para identificar UNICAMENTE (DE SOMENTE UM) um elemento no HTML */
+#primeiro {
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+/* Seletor por CLASSE */
+.textura {
+    color: chartreuse;
+}

@@ -1,0 +1,19 @@
+h1 {
+    font-size: large;
+    color: antiquewhite;
+}
+
+p {
+    color: beige;
+    background-color: aquamarine;
+    width: 10%;
+}
+
+body {
+    background: scroll;
+}
+
+input#100 {
+    color: aquamarine;
+    
+}
